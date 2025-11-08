@@ -1,0 +1,107 @@
+# Autoencoder Genomic Reduction - .gitignore
+
+# ===========================
+# Data Files (exclude all data)
+# ===========================
+*.csv
+*.tsv
+*.txt
+!requirements.txt
+!README.txt
+
+# ===========================
+# Model Files (large binary files)
+# ===========================
+*.h5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+*.hdf5
+
+# ===========================
+# Output Directories
+# ===========================
+results/
+plots/
+histograms/
+summaries/
+scaling_outputs/
+model_outputs/
+saved_models/
+encoded_features/
+*.pdf
+
+# ===========================
+# SLURM and Logs
+# ===========================
+*.out
+*.err
+*.log
+slurm-*.out
+slurm-*.err
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints
+*.ipynb
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===========================
+# TensorFlow
+# ===========================
+*.pb
+checkpoint
+*.ckpt*
+*.index
+*.data-*
+events.out.tfevents.*
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+*.tmp
+*.bak
