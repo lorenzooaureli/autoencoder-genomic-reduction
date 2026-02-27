@@ -271,7 +271,7 @@ If you use this pipeline in your research, please cite:
 
 ## License
 
-[Choose license - MIT, Apache 2.0, GPL, etc.]
+MIT license
 
 ## Author
 
